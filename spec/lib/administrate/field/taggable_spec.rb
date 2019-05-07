@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'acts-as-taggable-on'
 
-describe Administrate::Field::Taggable do
+describe Administrate::Field::ActsAsTaggable do
   let(:data) { tags }
   let(:options) { {} }
   let(:context) { :categories }
@@ -80,7 +80,7 @@ describe Administrate::Field::Taggable do
 
       describe '#to_partial_path' do
         it 'returns a partial based on the page being rendered' do
-          expect(subject.to_partial_path).to eq('/fields/taggable/show')
+          expect(subject.to_partial_path).to eq('/fields/acts_as_taggable/show')
         end
       end
     end
@@ -90,7 +90,7 @@ describe Administrate::Field::Taggable do
 
       describe '#to_partial_path' do
         it 'returns a partial based on the page being rendered' do
-          expect(subject.to_partial_path).to eq('/fields/taggable/form')
+          expect(subject.to_partial_path).to eq('/fields/acts_as_taggable/form')
         end
       end
     end
@@ -100,7 +100,7 @@ describe Administrate::Field::Taggable do
 
       describe '#to_partial_path' do
         it 'returns a partial based on the page being rendered' do
-          expect(subject.to_partial_path).to eq('/fields/taggable/index')
+          expect(subject.to_partial_path).to eq('/fields/acts_as_taggable/index')
         end
       end
     end

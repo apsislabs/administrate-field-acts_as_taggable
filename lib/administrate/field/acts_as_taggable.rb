@@ -4,7 +4,7 @@ require 'administrate/engine'
 
 module Administrate
   module Field
-    class Taggable < Administrate::Field::Text
+    class ActsAsTaggable < Administrate::Field::Text
       class Engine < ::Rails::Engine
         if defined?(Administrate::Engine)
           Administrate::Engine.add_javascript 'administrate-field-taggable/application'
