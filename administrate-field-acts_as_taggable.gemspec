@@ -19,4 +19,5 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency 'rake', '~> 12.3'
   gem.add_development_dependency 'rspec', '~> 3.7'
+  gem.add_development_dependency 'chandler'
 end
