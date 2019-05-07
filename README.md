@@ -1,0 +1,1 @@
+# Administrate::Field::ActsAsTaggable
