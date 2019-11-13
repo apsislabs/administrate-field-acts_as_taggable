@@ -2,7 +2,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-acts_as_taggable'
-  gem.version = '0.0.1'
+  gem.version = '0.0.2'
   gem.authors = ['Apsis Labs']
   gem.email = ['wyatt@apsis.io']
   gem.homepage = 'https://github.com/apsislabs/administrate-field-acts_as_taggable'
