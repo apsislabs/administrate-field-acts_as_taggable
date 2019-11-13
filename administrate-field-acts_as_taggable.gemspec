@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
 
   gem.add_runtime_dependency 'administrate', '< 1.0.0'
-  gem.add_runtime_dependency 'acts-as-taggable-on', '~>6.0.0'
+  gem.add_runtime_dependency 'acts-as-taggable-on', '~>6.0'
 
   gem.add_development_dependency 'rake', '~> 12.3'
   gem.add_development_dependency 'rspec', '~> 3.7'
